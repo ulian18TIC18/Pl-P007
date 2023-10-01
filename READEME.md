@@ -1,0 +1,1 @@
+Nessa repositório, vamos trabalhar com Programação Imperativa.
