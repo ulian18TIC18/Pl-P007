@@ -13,12 +13,12 @@ int main() {
 
     while (num1 > 0) {
         digito = num1 % 10;
-        inverso = inverso * 10 + digito;
-     num1 /= 10;
+        inverso = inverso * 10 + digito;        
+        num1 /= 10;
 
     }
     string resultado = (original == inverso) ? 
-    " eh palindromo" : "Nao eh palindromo";
+    "eh palindromo" : "Nao eh palindromo";
 
     cout << "O nummero digitado: " << resultado << endl;
 
