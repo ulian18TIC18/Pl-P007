@@ -12,7 +12,7 @@ int main(){
 
     int palpite, tentativas = 0;
 
-    cout << "Bem-vindo ao jogo de adivinhacao!" << endl;
+    cout << "Jogo de adivinhacao!" << endl;
 
     do{        
         cout << "Digite seu palpite (entre 1 e 100): ";
@@ -29,7 +29,7 @@ int main(){
             
         } 
         else{
-            cout << "Parabéns! Você acertou o número em " << tentativas            
+            cout << "Numero correto em" << tentativas            
             << " tentativas." << endl;
 
         }
