@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
+    
     int num1;
 
-    // Solicitar ao usuário para digitar um número inteiro
     cout << "Digite um num1 inteiro: ";
     cin >> num1;
 
