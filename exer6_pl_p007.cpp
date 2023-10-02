@@ -10,7 +10,7 @@ int main(){
     char continuar;
 
     do{
-        cout << "Digite o numero de matricula do aluno: ";
+        cout << "Digite a matricula do aluno (apenas numeros): ";
         cin >> matricula;
 
         cout << "Digite a nota 1 do aluno: ";
@@ -25,13 +25,12 @@ int main(){
         media = (nota1 + nota2 + nota3) / 3.0;
 
         cout << fixed << setprecision(1); 
-        cout << "===========================================" << endl;
-        cout << "MATRICULA\tNOTA1\tNOTA2\tNOTA3\tMEDIA" << endl;
-        cout << "===========================================" << endl;
-        cout << matricula << "\t\t" << nota1 << "\t" << nota2 << "\t" 
-        << nota3 << "\t" << media << endl;
+        cout << "MATRICULA\t\tNOTA1\tNOTA2\tNOTA3\tMEDIA" << endl;
+        cout << "======================================================" << endl;
+        cout << matricula << "\t\t" << " " << nota1 << "\t" << " " << nota2 
+        << "\t" << " " << nota3 << "\t" << media << endl;
 
-        cout << "Deseja cadastrar outro aluno? (S/N): ";
+        cout << "\nDeseja cadastrar outro aluno? (S/N): ";
         cin >> continuar;
 
     } 
